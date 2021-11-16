@@ -11,16 +11,20 @@
         android:theme="@style/Theme.Miwok">
         <activity
             android:name=".PhrasesActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Phrases"/>
         <activity
             android:name=".ColorsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Colors"/>
         <activity
             android:name=".FamilyMemberActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Family Members"/>
         <activity
             android:name=".NumberActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Numbers"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
