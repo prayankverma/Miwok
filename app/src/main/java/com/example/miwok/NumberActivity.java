@@ -18,20 +18,24 @@ public class NumberActivity extends AppCompatActivity {
 
 
        ListView listView= (ListView) findViewById(R.id.numberView);
+        ArrayList<Word> words = new ArrayList<Word>();
 
-        String[] words = getResources().getStringArray(R.array.words);
+        words.add(new Word("1","one"));  //        Word w = new Word("1","one");
+        words.add(new Word("2","Two"));
+        words.add(new Word("3","Three"));
+        words.add(new Word("4","Four"));
+        words.add(new Word("5","Five"));
+        words.add(new Word("6","Six"));
+        words.add(new Word("7","Seven"));
+        words.add(new Word("8","Eight"));
+        words.add(new Word("9","Nine"));
+        words.add(new Word("10","Ten"));
 
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,words);
 
-        listView.setAdapter(arrayAdapter);
+        WordAdapter adapter = new WordAdapter(this,words);
 
-
-
-
-
-
-
+        listView.setAdapter(adapter);
 
     }
 }
