@@ -22,20 +22,20 @@ public class PhrasesActivity extends AppCompatActivity {
         ArrayList<Word> words = new ArrayList<>();
         ListView listView= (ListView) findViewById(R.id.phraseView);
 
-        words.add(new Word("1","one"));  //        Word w = new Word("1","one");
-        words.add(new Word("2","Two"));
-        words.add(new Word("3","Three"));
-        words.add(new Word("4","Four"));
-        words.add(new Word("5","Five"));
-        words.add(new Word("6","Six"));
-        words.add(new Word("7","Seven"));
-        words.add(new Word("8","Eight"));
-        words.add(new Word("9","Nine"));
-        words.add(new Word("10","Ten"));
+        words.add(new Word("1","That was my fault."));  //        Word w = new Word("1","one");
+        words.add(new Word("2","I can't tell you how much"));
+        words.add(new Word("3","I loved the way you handled that"));
+        words.add(new Word("4","Can I get your advice on this?"));
+        words.add(new Word("5","I'm happy to see you!"));
+        words.add(new Word("6","I trust your judgment."));
+        words.add(new Word("7","What was the highlight of your day ?"));
+        words.add(new Word("8","I couldn't have done it without you."));
+        words.add(new Word("9","What can I do to help?"));
+        words.add(new Word("10","Tell me about why ..."));
 
 
 
-        WordAdapter adapter = new WordAdapter(this,words);
+        WordAdapter adapter = new WordAdapter(this,words,R.color.yellow,R.color.yellow_lite);
 
         listView.setAdapter(adapter);
 
