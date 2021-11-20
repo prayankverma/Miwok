@@ -8,11 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#FFC107</color>
-    <color name="yellow_lite">#FBD86C</color>
+    <color name="yellow_lite">#FFF6DB</color>
     <color name="green">#85D52A</color>
-    <color name="green_lite">#CCFFCE</color>
+    <color name="green_lite">#DDFCDE</color>
     <color name="blue">#2196F3</color>
-    <color name="blue_lite">#C7EEFF</color>
+    <color name="blue_lite">#E1F5FD</color>
     <color name="pink">#EA3975</color>
-    <color name="pink_lite">#FFD3E2</color>
+    <color name="pink_lite">#FDE5ED</color>
 </resources>
